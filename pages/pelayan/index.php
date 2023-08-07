@@ -133,7 +133,7 @@
             </li>
             <li class="nav-header">MULTI LEVEL EXAMPLE</li>
             <li class="nav-item">
-              <a href="logout.php" class="nav-link">
+              <a href="../logout.php" class="nav-link">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512">
                   <style>
                     svg {

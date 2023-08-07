@@ -13,7 +13,7 @@ $jumlah = mysqli_num_rows($hasil);
 
 if ($jumlah > 0) {
     $row = mysqli_fetch_assoc($hasil);
-    if ($row['role'] == "chef") {
+    if ($row['role'] == "koki") {
         $_SESSION["last_login_time"] = time();
         $_SESSION["username"] = $row["username"];
         $_SESSION["password"] = $row["password"];
@@ -32,5 +32,6 @@ if ($jumlah > 0) {
         echo "Username atau password salah <br><a href='login.php'>Kembali</a>";
     }
 } else {
+
     echo "Username atau password salah <br><a href='login.php'>Kembali</a>";
 }
