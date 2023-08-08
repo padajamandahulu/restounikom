@@ -124,57 +124,11 @@
             </div><!-- End Starter Menu Content -->
 
             <div class="tab-pane fade" id="menu-breakfast">
-
               <div class="tab-header text-center">
                 <p>Menu</p>
                 <h3>Breakfast</h3>
               </div>
-
               <div class="row gy-5">
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Magnam Tiste</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $5.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Aut Luia</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $14.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Est Eligendi</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $8.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Eos Luibusdam</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $12.95
-                  </p>
-                </div><!-- Menu Item -->
 
                 <div class="col-lg-4 menu-item">
                   <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
@@ -207,9 +161,7 @@
                 <p>Menu</p>
                 <h3>Lunch</h3>
               </div>
-
               <div class="row gy-5">
-
                 <div class="col-lg-4 menu-item">
                   <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
                   <h4>Magnam Tiste</h4>
@@ -220,7 +172,6 @@
                     $5.95
                   </p>
                 </div><!-- Menu Item -->
-
                 <div class="col-lg-4 menu-item">
                   <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
                   <h4>Aut Luia</h4>
@@ -232,49 +183,7 @@
                   </p>
                 </div><!-- Menu Item -->
 
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Est Eligendi</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $8.95
-                  </p>
-                </div><!-- Menu Item -->
 
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Eos Luibusdam</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $12.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Eos Luibusdam</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $12.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Laboriosam Direva</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $9.95
-                  </p>
-                </div><!-- Menu Item -->
 
               </div>
             </div><!-- End Lunch Menu Content -->
@@ -285,31 +194,7 @@
                 <p>Menu</p>
                 <h3>Dinner</h3>
               </div>
-
               <div class="row gy-5">
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Magnam Tiste</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $5.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Aut Luia</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $14.95
-                  </p>
-                </div><!-- Menu Item -->
-
                 <div class="col-lg-4 menu-item">
                   <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
                   <h4>Est Eligendi</h4>
@@ -329,28 +214,6 @@
                   </p>
                   <p class="price">
                     $12.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Eos Luibusdam</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $12.95
-                  </p>
-                </div><!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Laboriosam Direva</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $9.95
                   </p>
                 </div><!-- Menu Item -->
 
@@ -484,41 +347,41 @@
           <div class="row g-0">
             <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
             <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
-              <form action="proses_booking.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4">
-        <div class="col-lg-4 col-md-6">
-            <input type="text" name="nama_pembooking" class="form-control" placeholder="Your Name" required>
-            <div class="validate"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <input type="number" class="form-control" name="nohp_pembooking" placeholder="Your Phone" required>
-            <div class="validate"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <input type="date" name="tanggal_pembooking" class="form-control" placeholder="Date" required>
-            <div class="validate"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <input type="time" class="form-control" name="waktu_pembooking" placeholder="Time" min="09:00" max="18:00" required>
-            <div class="validate"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <input type="number" class="form-control" name="jumlah_orang_pembooking" placeholder="Number of people" required>
-            <div class="validate"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <input type="number" class="form-control" name="no_meja" placeholder="Table number" required>
-            <div class="validate"></div>
-        </div>
-    </div>
-    <div class="form-group mt-3">
-        <textarea class="form-control" name="pesan_pembooking" rows="5" placeholder="Message"></textarea>
-        <div class="validate"></div>
-    </div>
-    <div class="mt-3">
-    </div>
-    <div class="text-center"><button type="submit" value="booking" name="booking">Booking</button></div>
-</form>
+              <form action="forms/proses_booking.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-md-6">
+                    <input type="text" name="nama_pembooking" class="form-control" placeholder="Your Name" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <input type="number" class="form-control" name="nohp_pembooking" placeholder="Your Phone" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <input type="date" name="tanggal_pembooking" class="form-control" placeholder="Date" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <input type="time" class="form-control" name="waktu_pembooking" placeholder="Time" min="09:00" max="18:00" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <input type="number" class="form-control" name="jumlah_orang_pembooking" placeholder="Number of people" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <input type="number" class="form-control" name="no_meja" placeholder="Table number" required>
+                    <div class="validate"></div>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="pesan_pembooking" rows="5" placeholder="Message"></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mt-3">
+                </div>
+                <div class="text-center"><button type="submit" value="booking" name="booking">Booking</button></div>
+              </form>
 
 
             </div><!-- End Reservation Form -->
@@ -527,31 +390,6 @@
 
         </div>
       </section><!-- End Book A Table Section -->
-
-      <!-- ======= Gallery Section ======= -->
-      <section id="gallery" class="gallery section-bg">
-        <div class="container" data-aos="fade-up">
-
-          <div class="section-header">
-            <h2>gallery</h2>
-            <p>Check <span>Our Gallery</span></p>
-          </div>
-          <div class="gallery-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section><!-- End Gallery Section -->
-
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
@@ -612,32 +450,27 @@
             </div><!-- End Info Item -->
 
           </div>
-
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+          <form action="forms/proses_contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
             <div class="row">
               <div class="col-xl-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" name="nama_contact" class="form-control" placeholder="Your Name" required>
               </div>
               <div class="col-xl-6 form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="number" class="form-control" name="nohp_contact" placeholder="Your Phone" required>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <input type="text" class="form-control" name="subject_contact" id="subject" placeholder="Subject" required>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message_contact" rows="5" placeholder="Message" required></textarea>
             </div>
             <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit" value="contact" name="contact">Send Message</button></div>
           </form><!--End Contact Form -->
 
         </div>
       </section><!-- End Contact Section -->
-
     </main><!-- End #main -->
     <?php include 'app/footer.php'; ?>

@@ -1,5 +1,5 @@
 <?php
-include 'connect.php'; // Make sure you have this file to establish the database connection.
+include '../connect.php';
 
 if (isset($_POST['booking'])) {
     $nama = $_POST['nama_pembooking'];
@@ -15,7 +15,7 @@ if (isset($_POST['booking'])) {
     $insert = mysqli_query($conn, $query);
     if ($insert) {
         echo 'Booking successful!';
-        header('Location: index.php');
+        header('Location:../index.php');
         exit;
     } else {
         echo 'Error: ' . mysqli_error($conn);
