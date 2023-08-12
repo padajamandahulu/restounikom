@@ -229,7 +229,6 @@
                       <th>Jenis Kelamin</th>
                       <th>Kelas</th>
                       <th>Opsi</th>
-
                     </tr>
                   </thead>
                   <tbody>

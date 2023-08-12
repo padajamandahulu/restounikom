@@ -30,11 +30,8 @@
                             <input type="text" class="form-control" name="nama_pelanggan" aria-describedby="basic-addon3">
                         </div>
                         <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
+                    </form>
                 </div>
-
-        </section><!-- End Menu Section -->
-        <section id="menu" class="menu">
-            <div class="container" data-aos="fade-up">
                 <div class="section-header">
                 </div>
                 <div class="tab-content" data-aos="fade-up" data-aos-delay="300">

@@ -365,10 +365,6 @@
                     <input type="number" class="form-control" name="jumlah_orang_pembooking" placeholder="Number of people" required>
                     <div class="validate"></div>
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                    <input type="number" class="form-control" name="no_meja" placeholder="Table number" required>
-                    <div class="validate"></div>
-                  </div>
                 </div>
                 <div class="form-group mt-3">
                   <textarea class="form-control" name="pesan_pembooking" rows="5" placeholder="Message"></textarea>
