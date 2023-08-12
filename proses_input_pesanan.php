@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
     // Lakukan validasi data di sini jika diperlukan
 
     // Query untuk memasukkan pesanan baru ke dalam tabel pesanan
-    $query = "INSERT INTO tbl_pesanan (id_menu, jumlah_pesanan, no_meja, status) VALUES (?, ?, ?, 'baru')";
+    $query = "INSERT INTO tbl_pesanan (id_menu, jumlah_pesanan, no_meja, status) VALUES ('$id_menu','$jumlah_pesanan','$no_meja','baru')";
     $stmt = mysqli_prepare($conn, $query);
 
     if ($stmt) {

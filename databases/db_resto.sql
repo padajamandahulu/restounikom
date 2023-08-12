@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 12 Agu 2023 pada 09.46
+-- Waktu pembuatan: 12 Agu 2023 pada 16.41
 -- Versi server: 10.4.22-MariaDB
 -- Versi PHP: 7.3.33
 
@@ -41,10 +41,8 @@ CREATE TABLE `tbl_booking` (
 --
 
 INSERT INTO `tbl_booking` (`jumlah_orang_pembooking`, `no_hppembooking`, `tanggal_pembooking`, `nama_pembooking`, `waktu_pembooking`, `pesan_pembooking`) VALUES
-('2', '081293218', '2000-08-07', 'Hafizh dan rio', '10:10:00', 'PANTEKKK'),
-('12', '08217010XXX', '2023-08-10', 'farhan', '09:18:00', ''),
-('6', '120301321', '2024-02-22', 'vikri', '12:12:00', '123\r\n'),
-('4', '324523', '2023-08-22', 'sdgfsgf', '10:10:00', 'w');
+('12', '08217010', '2023-08-10', 'farhan', '09:18:00', ''),
+('6', '120301321', '2024-02-22', 'vikri', '12:12:00', '123\r\n');
 
 -- --------------------------------------------------------
 
@@ -64,9 +62,8 @@ CREATE TABLE `tbl_contact` (
 --
 
 INSERT INTO `tbl_contact` (`nohp_contact`, `subject_contact`, `message_contact`, `nama_contact`) VALUES
-('081239', 'ahdj', 'jasdjasdsa', 'aksmdaksdsa'),
-('082170188', 'pantek', 'meki\r\n', 'genta'),
-('123213213', '12312321', '21321312', '12321');
+('081239', 'pemilihan menu', 'Saya ingin memilih...', 'vikrii'),
+('082170188', 'kerjasama', 'apakah dibolehkan?...', 'genta');
 
 -- --------------------------------------------------------
 
@@ -86,7 +83,7 @@ CREATE TABLE `tbl_kasir` (
 --
 
 INSERT INTO `tbl_kasir` (`id_kasir`, `nama_kasir`, `alamat_kasir`, `username`) VALUES
-(1, 'lubiss', 'jalan gedebageee', 'kasir');
+(1, 'kasirmerah', 'jl.gedebage', 'kasir');
 
 -- --------------------------------------------------------
 
@@ -106,7 +103,7 @@ CREATE TABLE `tbl_koki` (
 --
 
 INSERT INTO `tbl_koki` (`id_koki`, `nama_koki`, `alamat_koki`, `username`) VALUES
-(1, 'riani', 'jalan gedebagee', 'koki');
+(1, 'sutanto', 'jl.soekarno hatta ', 'koki');
 
 -- --------------------------------------------------------
 
@@ -125,11 +122,11 @@ CREATE TABLE `tbl_meja` (
 --
 
 INSERT INTO `tbl_meja` (`no_meja`, `status`, `nama_pelanggan`) VALUES
-(1, 'ada', 'hasbi'),
-(2, 'ada', 'hassbii'),
-(3, 'ada', 'vikri\r\n'),
-(4, 'ada', 'vikriii'),
-(5, 'ada', 'aa');
+(1, 'ada', '123'),
+(2, 'ada', 'hasbi'),
+(3, 'kosong', ''),
+(4, 'ada', 'vikrii'),
+(5, 'ada', 'rani');
 
 -- --------------------------------------------------------
 
@@ -199,7 +196,8 @@ CREATE TABLE `tbl_pesanan` (
 
 INSERT INTO `tbl_pesanan` (`id_pesanan`, `jumlah_pesanan`, `id_menu`, `no_meja`, `status`) VALUES
 (1, 2, 3, 1, 'baru'),
-(3, 2, 1, 2, 'baru');
+(3, 2, 1, 2, 'baru'),
+(8, 5, 2, 4, 'baru');
 
 -- --------------------------------------------------------
 
@@ -277,8 +275,7 @@ ALTER TABLE `tbl_koki`
 -- Indeks untuk tabel `tbl_meja`
 --
 ALTER TABLE `tbl_meja`
-  ADD PRIMARY KEY (`no_meja`),
-  ADD UNIQUE KEY `nama_pelanggan` (`nama_pelanggan`);
+  ADD PRIMARY KEY (`no_meja`);
 
 --
 -- Indeks untuk tabel `tbl_menu`
@@ -335,7 +332,7 @@ ALTER TABLE `tbl_koki`
 -- AUTO_INCREMENT untuk tabel `tbl_pesanan`
 --
 ALTER TABLE `tbl_pesanan`
-  MODIFY `id_pesanan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_pesanan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_transaksi`
