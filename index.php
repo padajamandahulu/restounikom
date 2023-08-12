@@ -231,10 +231,8 @@
             <h2>Testimonials</h2>
             <p>What Are They <span>Saying About Us</span></p>
           </div>
-
           <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
-
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <div class="row gy-4 justify-content-center">
@@ -330,11 +328,9 @@
                   </div>
                 </div>
               </div><!-- End testimonial item -->
-
             </div>
             <div class="swiper-pagination"></div>
           </div>
-
         </div>
       </section><!-- End Testimonials Section -->
       <!-- ======= Book A Table Section ======= -->
@@ -358,7 +354,7 @@
                     <div class="validate"></div>
                   </div>
                   <div class="col-lg-4 col-md-6">
-                    <input type="date" name="tanggal_pembooking" class="form-control" placeholder="Date" required>
+                    <input type="date" name="tanggal_pembooking" class="form-control" min="2023-08-08" max="2024-08-08" placeholder="Date" required>
                     <div class="validate"></div>
                   </div>
                   <div class="col-lg-4 col-md-6">
@@ -382,12 +378,8 @@
                 </div>
                 <div class="text-center"><button type="submit" value="booking" name="booking">Booking</button></div>
               </form>
-
-
             </div><!-- End Reservation Form -->
-
           </div>
-
         </div>
       </section><!-- End Book A Table Section -->
       <!-- ======= Contact Section ======= -->

@@ -239,6 +239,63 @@
           </div>
         </div><!-- /.container-fluid -->
       </section>
+      <section class="content">
+        <div class="container">
+          <div class="container-fluid">
+            <!-- /.row -->
+            <div class="card">
+
+              <div class="card-header">
+
+                <h3 style="font-size: 30px;  text-align: center;">Data Siswa Rekayasa perangkat lunak </h3>
+                <button class="btn btn-success ">Tambah data siswa</button>
+
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example1" class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th>Nik</th>
+                      <th>Nama</th>
+                      <th>Jenis Kelamin</th>
+                      <th>Kelas</th>
+                      <th>Opsi</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php
+                    $sql = mysqli_query($conn, "select *from siswa");
+                    while ($data = mysqli_fetch_assoc($sql)) {
+                    ?>
+                      <tr>
+                        <td><?= $data['nik']; ?></td>
+                        <td><?= $data['nama']; ?></td>
+                        <td><?= $data['jenis_kelamin']; ?></td>
+                        <td><?= $data['kelas']; ?></td>
+                        <td><a href="" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg<?= $data['nik']; ?>">Update</a>
+                          <a href="" class="btn btn-danger">Hapus</a>
+                        </td>
+                      </tr>
+                    <?php   } ?>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th>Rendering engine</th>
+                      <th>Browser</th>
+                      <th>Platform(s)</th>
+                      <th>Engine version</th>
+                      <th>CSS grade</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
       <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->

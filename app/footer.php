@@ -8,8 +8,8 @@
                  <div>
                      <h4>Address</h4>
                      <p>
-                         A108 Adam Street <br>
-                         New York, NY 535022 - US<br>
+                         Jl. Dipati Ukur No.112-116 <br>
+                         Lebakgede, Bandung<br>
                      </p>
                  </div>
 
@@ -20,8 +20,8 @@
                  <div>
                      <h4>Reservations</h4>
                      <p>
-                         <strong>Phone:</strong> +1 5589 55488 55<br>
-                         <strong>Email:</strong> info@example.com<br>
+                         <strong>Phone:</strong> 0222506634<br>
+                         <strong>Email:</strong> vikri.10121080@unikom.ac.id<br>
                      </p>
                  </div>
              </div>
@@ -31,8 +31,10 @@
                  <div>
                      <h4>Opening Hours</h4>
                      <p>
-                         <strong>Mon-Sat: 11AM</strong> - 23PM<br>
-                         Sunday: Closed
+                         <strong>Monday-Friday:</strong>
+                         07.00–16.00;
+                         <strong>Saturday</strong>
+                         07.00-14.00
                      </p>
                  </div>
              </div>

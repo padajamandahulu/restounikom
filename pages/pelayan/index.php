@@ -13,12 +13,6 @@
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="#" class="nav-link">Contact</a>
-        </li>
       </ul>
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
@@ -90,36 +84,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-table"></i>
-                <p>
-                  Tables
-                  <i class="fas fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="pages/tables/simple.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Simple Tables</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/tables/data.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>DataTables</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/tables/jsgrid.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>jsGrid</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-header">MISCELLANEOUS</li>
-            <li class="nav-item">
               <a href="iframe.html" class="nav-link">
                 <i class="nav-icon fas fa-ellipsis-h"></i>
                 <p>Tabbed IFrame Plugin</p>
@@ -131,7 +95,6 @@
                 <p>Documentation</p>
               </a>
             </li>
-            <li class="nav-header">MULTI LEVEL EXAMPLE</li>
             <li class="nav-item">
               <a href="../logout.php" class="nav-link">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512">
@@ -180,8 +143,12 @@
             <div class="col-lg-3 col-6">
               <!-- small box -->
               <div class="small-box bg-info">
+                <?php
+                include '../../connect.php';
+                $sql = mysqli_num_rows(mysqli_query($conn, "select count(status) from tbl_pesanan where status='baru'"));
+                ?>
                 <div class="inner">
-                  <h3>150</h3>
+                  <h3><?= $sql['status']; ?></h3>
 
                   <p>New Orders</p>
                 </div>
@@ -239,7 +206,68 @@
           </div>
         </div><!-- /.container-fluid -->
       </section>
-      <!-- /.content -->
+
+      <section class="content">
+        <div class="container">
+          <div class="container-fluid">
+            <!-- /.row -->
+            <div class="card">
+
+              <div class="card-header">
+
+                <h3 style="font-size: 30px;  text-align: center;">Data Transaksi</h3>
+                <button class="btn btn-success" href="input_pesanan.php">Tambah data transaksi</button>
+
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example1" class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th>Nik</th>
+                      <th>Nama</th>
+                      <th>Jenis Kelamin</th>
+                      <th>Kelas</th>
+                      <th>Opsi</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php
+                    $sql = mysqli_query($conn, "select *from siswa");
+                    while ($data = mysqli_fetch_assoc($sql)) {
+                    ?>
+                      <tr>
+                        <td><?= $data['nik']; ?></td>
+                        <td><?= $data['nama']; ?></td>
+                        <td><?= $data['jenis_kelamin']; ?></td>
+                        <td><?= $data['kelas']; ?></td>
+                        <td><a href="" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg<?= $data['nik']; ?>">Update</a>
+                          <a href="" class="btn btn-danger">Hapus</a>
+                        </td>
+                      </tr>
+                    <?php   } ?>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th>Rendering engine</th>
+                      <th>Browser</th>
+                      <th>Platform(s)</th>
+                      <th>Engine version</th>
+                      <th>CSS grade</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </div>
-    <!-- /.content-wrapper -->
-    <?= include '../app/footer.php'; ?>
+
+  </div>
+  <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <?= include '../app/footer.php'; ?>
